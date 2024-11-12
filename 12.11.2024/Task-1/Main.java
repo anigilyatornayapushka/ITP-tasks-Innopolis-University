@@ -11,7 +11,7 @@ public class Main {
             in.read(buffer, 0, buffer.length);
             out.write(buffer, 0, buffer.length);
         } catch (IOException ex) {
-            System.out.println(ex.getMessage());
+            System.out.println("Error: " + ex.getMessage());
         }
     }
 }
